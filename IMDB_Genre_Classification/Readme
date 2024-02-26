@@ -1,0 +1,13 @@
+
+
+In this project, I embarked on creating a custom word embedding model tailored to understand the nuances of movie descriptions, inspired by the renowned Google Word2Vec model but specialized to the cinematic domain of the IMDB dataset. This bespoke model was meticulously developed to capture the intricate semantics and contextual nuances present in movie synopses, leveraging the rich narrative details provided by IMDB's extensive collection.
+
+My journey commenced with a thorough preprocessing of the IMDB dataset, employing advanced NLP techniques with the aid of the Spacy library to cleanse the text data. This process involved an intricate removal of stopwords and the application of regular expressions to ensure the data was primed for the next stage. The essence of my project was the crafting of a unique word embedding model from this purified dataset, enabling me to transform raw movie descriptions into meaningful vector representations.
+
+With my custom embedding model in hand, I turned my attention to a secondary dataset that categorized movies into four genres based on their IMDB descriptions. The challenge was to accurately classify these movies into their respective genres using the insights gained from my embeddings. After vectorizing the movie descriptions through my embedding model, I explored various machine learning algorithms to find the most effective classifier.
+
+My exploration culminated in the discovery that the Support Vector Machine (SVM) algorithm outshone its competitors, achieving an impressive 79% accuracy in genre classification. This result not only validated the efficacy of my custom word embedding model but also underscored the potential of SVM in handling text-based classification tasks with nuanced feature spaces.
+
+This project stands as a testament to the power of bespoke NLP solutions in enhancing genre classification tasks, offering a novel approach that marries custom embeddings with machine learning prowess. The success of my SVM model in navigating the complex feature landscape of movie descriptions paves the way for future explorations in automated genre classification and the broader application of custom embeddings in NLP.
+
+Here is the link to all the files: https://drive.google.com/drive/folders/1wcrx_rM3NJUXy7WXa4f2wsx52oLdVe-K?usp=sharing
